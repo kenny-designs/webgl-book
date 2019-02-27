@@ -1,0 +1,25 @@
+{
+  "name": "webgl-book",
+  "version": "1.0.0",
+  "description": "Studying WebGL 2",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenny-designs/webgl-tut.git"
+  },
+  "author": "Alexander M. Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenny-designs/webgl-tut/issues"
+  },
+  "homepage": "https://github.com/kenny-designs/webgl-tut#readme"
+}
