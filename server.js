@@ -6,7 +6,7 @@ const express = require('express'),
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('I am gRoot');
+  res.sendFile(path.join(__dirname));
 });
 
 
